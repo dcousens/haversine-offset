@@ -35,6 +35,5 @@ console.log(haversineOffset(a, offset))
 ```
 
 
-## License
+## License [MIT](LICENSE)
 
-This library is free and open-source software released under the MIT license.

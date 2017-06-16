@@ -22,7 +22,7 @@ console.log(haversineOffset(a, offset))
 // { lat: -37.812252527073824, lng: 144.96423709426978 },
 ```
 
-`lat`, `lng` variants will also work:
+`lat`, `lng` works too:
 
 ``` javascript
 var haversineOffset = require('haversine-offset')

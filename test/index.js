@@ -14,8 +14,8 @@ for (const f of fixtures) {
     const distance = haversineDistance(f.position, result)
 
     t.plan(3)
-    t.ok(round3(result.lat) === f.expected.lat, `${result.lat} ~= ${f.expected.lat}`)
-    t.ok(round3(result.lng) === f.expected.lng, `${result.lng} ~= ${f.expected.lng}`)
-    t.ok(round3(distance) === f.distance, `${distance} ~= ${f.distance}`)
+    t.ok(round3(result.lat) === round3(f.expected.lat), `${result.lat} ~= ${f.expected.lat}`)
+    t.ok(round3(result.lng) === round3(f.expected.lng), `${result.lng} ~= ${f.expected.lng}`)
+    t.ok(round3(distance) === round3(f.distance), `${distance} ~= ${f.distance}`)
   })
 }

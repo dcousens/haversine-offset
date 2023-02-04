@@ -1,8 +1,5 @@
 # haversine-offset
-
-[![build status](https://secure.travis-ci.org/dcousens/haversine-offset.png)](http://travis-ci.org/dcousens/haversine-offset)
 [![Version](http://img.shields.io/npm/v/haversine-offset.svg)](https://www.npmjs.org/package/haversine-offset)
-
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 Haversine offset formula in Javascript.  Uses meters.  Nothing more.

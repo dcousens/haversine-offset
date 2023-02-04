@@ -4,7 +4,7 @@
   "description": "Haversine offset formula in Javascript, in meters, nothing else",
   "main": "index.js",
   "scripts": {
-    "lint": "standard",
+    "standard": "standard",
     "test": "mocha"
   },
   "repository": {
